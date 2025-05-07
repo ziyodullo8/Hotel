@@ -1,4 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿//================================
+//Copyright (C) Coalitionof Good-Hearted Engineers
+//Free To Use Comfort and Peace
+//================================
+
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Sheenam.Api.Models.Foundations;
 using System.Threading.Tasks;

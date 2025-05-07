@@ -13,7 +13,7 @@ namespace  Sheenam.Api.Brokers.Storages
 {
     public partial class StorageBroker: EFxceptionsContext, IStorageBroker
     {
-        private IConfiguration configuration;
+        private readonly IConfiguration configuration;
 
         public StorageBroker(IConfiguration configuration) 
         {
